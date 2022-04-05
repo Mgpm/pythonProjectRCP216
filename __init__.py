@@ -11,6 +11,6 @@ schema = type.StructType(fields).add("label",type.StringType(),True)
 
 loadDF = loadData(spark,schema)
 
-#loadDF.dataShape()
+#loadDF.dataShape()1
 #loadDF.printData()
 #loadDF.printSchema()
