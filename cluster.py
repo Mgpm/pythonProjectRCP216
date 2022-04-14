@@ -33,10 +33,8 @@ class cluster: # Pour la classification des données
                 c2 = [col[0][1] for col in p]
                 self.plt.scatter(c1,c2,s=50,c=colors[i])
         self.plt.show()
-        
-        
-       
-        
+
+
     def getCluster(self):
         self.clusterDF
 
